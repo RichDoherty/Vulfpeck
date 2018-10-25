@@ -1,0 +1,86 @@
+body {
+    background-color: #9abedf;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Vulf Mono Italic";
+    overflow-x: hidden;
+}
+
+.page {
+        background-image: url(images/band.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
+#name h1 {
+    /*border-radius: 25px;
+    background-color: rgba(200, 200, 200, 0.45);*/
+    margin: auto;
+    
+    font-size: 500%;
+    color: rgba(0, 0, 0, 0.75);
+    left: 0;
+    line-height: 100px;
+    margin-top: -175px;
+    position: fixed;
+    top: 24%;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.90);
+    text-decoration: none;
+}
+
+.navbar:hover {
+    text-decoration: underline;
+}
+
+.navlist {
+    text-align: center;
+
+}
+
+#navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 35px;
+    font-size: 20px;
+
+}
+
+#navcontainer {
+    position: absolute;
+    width: 100%;
+}
+
+.location:hover {
+    text-decoration: underline;
+}
+
+.videolink:hover {
+    text-decoration: underline;
+}
+
+.albumtitle {
+    line-height: 0.8em;
+}
+
+.band {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 90%;
+    border: thick rgba(255, 255, 255, 0.8) solid;
+    float: center;
+    position:relative;
+}
+
+@font-face {
+    font-family: 'Vulf Mono Italic';
+    src:    url('Vulf_Mono-Italic_web.woff');
+    font-weight: 400;
+    font-style: normal;
+    }
