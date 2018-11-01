@@ -16,16 +16,17 @@ body {
     /*border-radius: 25px;
     background-color: rgba(200, 200, 200, 0.45);*/
     margin: auto;
-    
+    display: block;
     font-size: 500%;
     color: rgba(0, 0, 0, 0.75);
-    left: 0;
-    line-height: 100px;
-    margin-top: -175px;
+    left: 0px;
+    line-height: 72px;
+    top: 8%;
     position: fixed;
-    top: 24%;
     width: 100%;
     text-align: center;
+    text-size-adjust: 100%;
+    overflow-wrap: normal;
 }
 
 a {
@@ -51,8 +52,9 @@ a {
 }
 
 #navcontainer {
-    position: absolute;
+    position: relative;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .location:hover {
@@ -76,6 +78,31 @@ a {
     border: thick rgba(255, 255, 255, 0.8) solid;
     float: center;
     position:relative;
+}
+.lists  {
+    width: 150px;
+}
+
+.table {
+    display: table;
+    border-spacing: 10px;
+    vertical-align: top;
+}
+
+.tablerow {
+    display: table-row;
+    width: 33%;
+}
+
+.tablecell {
+    display: table-cell;
+    padding: 15px;
+    text-align: center;
+}
+
+.tablecolumn {
+    display: table-column;
+    
 }
 
 @font-face {
