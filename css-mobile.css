@@ -1,0 +1,80 @@
+.page {
+    background-image: url(images/bandmobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#hometop, #homebottom, #homeleft, #homeright {
+    background: #ffffff;
+    position: fixed;
+}
+#homeleft, #homeright {
+    top: 0; bottom: 0;
+    width: 15px;
+ }
+    #homeleft { left: 0; }
+    #homeright { right: 0; }
+        
+#hometop, #homebottom {
+    left: 0; right: 0;
+    height: 15px;
+}
+    #hometop { top: 0; }
+    #homebottom { bottom: 0; }
+
+.homepagehead {
+    padding: 12px;
+    background: rgba(184, 220, 253, 0.25);
+}
+
+.homelefthead {
+    text-align: left;
+    width: 40%;
+}
+
+.lefthead {
+    text-align: left;
+    width: 40%;
+}
+
+.name h1 {
+    display: none;
+}
+
+.aboutp {
+    width: 90%;
+    font-size: 1em;
+}
+
+.aboutimg {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    display: none;
+    width: 50%;
+}
+
+.table {
+
+    border-spacing: 10px;
+    vertical-align: top;
+    overflow-x: auto;
+}
+
+.tablerow {
+    display: table-row;
+    width: 33%;
+}
+
+.tablecell {
+    display: table-cell;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+@media screen and (max-width:320px) {
+    .footer {
+        font-size: 0.7em;
+    }
+}
