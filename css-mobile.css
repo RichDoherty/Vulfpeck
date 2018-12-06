@@ -62,12 +62,10 @@
 }
 
 .tablerow {
-    display: table-row;
     width: 33%;
 }
 
 .tablecell {
-    display: table-cell;
     padding: 15px;
     text-align: center;
     border: 1px solid white;
