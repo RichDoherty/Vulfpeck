@@ -42,7 +42,7 @@
 }
 
 .table {
-
+    display:table;
     border-spacing: 10px;
     vertical-align: top;
     overflow-x: auto;
