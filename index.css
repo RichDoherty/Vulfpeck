@@ -139,6 +139,10 @@ a {
     border: 1px solid white;
 }
 
+img {
+    max-width: 100%;   
+}
+
 /*
 .bodycontainer {
     background: rgba(184, 220, 253, 0.25);
