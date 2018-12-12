@@ -2,6 +2,7 @@ body {
     background-color: #9abedf;
     background-position: center;
     background-attachment: fixed;
+    position: static;
     font-family: "Vulf Mono Italic", serif;
     overflow-x: hidden;
 }
