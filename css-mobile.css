@@ -48,11 +48,17 @@
 }
 
 .aboutimg {
-    position: absolute;
-    left: 45%;
-    top: 25%;
     display: none;
-    width: 50%;
+}
+
+.members {
+    display: none;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin: 4px 4px 4px 6px;
 }
 
 .table {

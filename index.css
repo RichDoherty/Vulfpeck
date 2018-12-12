@@ -2,7 +2,7 @@ body {
     background-color: #9abedf;
     background-position: center;
     background-attachment: fixed;
-    font-family: "Vulf Mono Italic";
+    font-family: "Vulf Mono Italic", serif;
     overflow-x: hidden;
 }
 
@@ -118,6 +118,17 @@ a {
 .aboutp {
     width: 50%;
     font-size: 1em;
+}
+
+.socialmediacontainer li {
+    display: inline;
+    text-decoration: none;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin: 5px 5px 5px 10px;
 }
 
 img {
