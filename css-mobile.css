@@ -1,8 +1,14 @@
 .page {
     background-image: url(images/bandmobile.png);
-    background-repeat: no-repeat;
-    background-size: contain;
     background-position: 50%;
+}
+
+.tourbg {
+    background-image: url(images/DartMobile.png);
+}
+
+.discobg {
+    background-image: url(images/AntwaunAndTheoMobile.png);
 }
 
 #hometop, #homebottom, #homeleft, #homeright {

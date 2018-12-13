@@ -2,19 +2,8 @@ body {
     background-color: #9abedf;
     background-position: center;
     background-attachment: fixed;
-    position: static;
     font-family: "Vulf Mono Italic", serif;
     overflow-x: hidden;
-}
-
-.tour {
-    background-image: url(images/Dart.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.discobg {
-    background-image: url(images/AntwaunAndTheo.png);
     background-repeat: no-repeat;
     background-size: contain;
 }

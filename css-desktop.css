@@ -1,7 +1,13 @@
 .page {
     background-image: url(images/band.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+}
+
+.tourbg {
+    background-image: url(images/Dart.png);
+}
+
+.discobg {
+    background-image: url(images/AntwaunAndTheo.png);
 }
 
 .name h1 {
