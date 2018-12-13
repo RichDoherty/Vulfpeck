@@ -7,6 +7,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.page {
+    background-size: contain;
+}
+
 a {
     color: rgba(255, 255, 255);
     text-decoration: none;
