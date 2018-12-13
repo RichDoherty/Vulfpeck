@@ -11,6 +11,13 @@ body {
     background-size: contain;
 }
 
+.name h1 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 a {
     color: rgba(255, 255, 255);
     text-decoration: none;
